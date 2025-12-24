@@ -1,0 +1,19 @@
+div div p {
+    color: red;
+}
+
+/* ========== Sibling Combinator ========= */
+
+h2 + p {
+  color: green;
+}
+
+.box + p {
+  color: green;
+}
+
+/* ========== ATTRIBUTE SELECTOR ========= */
+
+input[type="text"] {
+    border: 2px solid blue;
+}

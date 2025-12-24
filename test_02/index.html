@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors Practice</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>CSS Selector Practice</h1>
+
+    <!-- DESCENDANT & CHILD -->
+    <div class="container">
+        <p>This is a direct child paragraph.</p>
+
+        <div class="inner">
+            <p>This is a nested paragraph.</p>
+        </div>
+    </div>
+
+    <hr>
+
+    <!-- SIBLING -->
+    <h2>Sibling Section</h2>
+    <p>This paragraph is before the box.</p>
+
+    <div class="box">
+        I am a box
+    </div>
+
+    <p>This paragraph is after the box (general sibling).</p>
+    <p>This paragraph is also after the box.</p>
+
+    <hr>
+
+    <!-- ATTRIBUTE SELECTOR -->
+    <h2>Attribute Selector</h2>
+
+    <input type="text" placeholder="Username">
+    <input type="password" placeholder="Password">
+    <input type="email" placeholder="Email">
+
+    <hr>
+
+    <!-- PSEUDO CLASS -->
+    <h2>Pseudo Class</h2>
+
+    <button>Hover me</button>
+    <input type="text" placeholder="Focus me">
+
+    <ul>
+        <li>Item One</li>
+        <li>Item Two</li>
+        <li>Item Three</li>
+    </ul>
+
+    <hr>
+
+    <!-- PSEUDO ELEMENT -->
+    <h2>Pseudo Element</h2>
+
+    <p class="text">
+        This paragraph is for pseudo element practice.
+    </p>
+
+</body>
+
+</html>
